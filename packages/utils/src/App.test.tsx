@@ -6,6 +6,6 @@ describe("Accordion test", () => {
   test("should show title all the time", () => {
     expect(true).toBe(true)
       render(<App></App>);
-      expect(screen.getByText(/Edit/i)).toBeDefined()
+      expect(screen.getByText(/Edit/i)).toBeInTheDocument()
   })
 })
