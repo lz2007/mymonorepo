@@ -47,7 +47,7 @@ var hasPathSum = function (root, targetSum) {
   }
 
   if (root.left == null && root.right == null) {
-    return targetSum == root.val;
+    return targetSum == root.value;
   }
   console.log(targetSum)
   return (
